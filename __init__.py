@@ -3,13 +3,13 @@
 from os import path
 
 import hunspell
-from albertv0 import *
+from albert import Item, ClipAction,
+from albert import critical, warning, debug
 
-__iid__ = "PythonInterface/v0.1"
-__prettyname__ = "Spell"
-__version__ = "0.1"
-__trigger__ = "spell "
-__author__ = "Bharat Kalluri"
+__title__ = "Spell"
+__version__ = "0.1.1"
+__triggers__ = "spell "
+__authors__ = ["Bharat Kalluri", "Bierchermüesli"]
 __dependencies__ = ['hunspell']
 
 icon_path = "{}/icons/{}.png".format(path.dirname(__file__), "correction")
